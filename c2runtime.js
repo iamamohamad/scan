@@ -19304,12 +19304,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.TextBox.prototype.acts.SetText,
 	cr.plugins_.UserMedia.prototype.acts.RequestCamera,
 	cr.plugins_.Pode_QRDecode.prototype.cnds.OnDecoded,
+	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Pode_QRDecode.prototype.exps.decodedQRCode,
 	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.UserMedia.prototype.acts.Snapshot,
 	cr.plugins_.Sprite.prototype.acts.LoadURL,
 	cr.plugins_.UserMedia.prototype.exps.SnapshotURL,
 	cr.plugins_.Pode_QRDecode.prototype.acts.qrDecode,
-	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.AdvTextBox.prototype.exps.Text
 ];};
